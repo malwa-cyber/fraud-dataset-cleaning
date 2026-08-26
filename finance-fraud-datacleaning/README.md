@@ -5,6 +5,8 @@ It is a zip file with different csv files, so I extracted the transaction csv fi
 ## objectives
 1. To clean, validate and analyze the financial transaction data using Excel.
 2. To identify transaction patterns, trends and potential areas of risks using Power BI.
+3. To segment accounts by risk level.
+4. To identify which features are most associated with fraud.
 # cleaning
 Now let's get started!!
 ## checking missing values
@@ -20,7 +22,4 @@ I used the conditional formatting and highlighted the duplicates and deleted the
 
 ## handling missing values
 I used the conditional formatting approach to highlight the missing values on the date and used the data provided in the dataset to fill it. Using this formula (=IF(H3="", H2, H3)) suggesting that if H3 is missing, then replace it with the value in H2 if not H3 stands.
-
-## creating power BI dashboard
-I imported the csv file into power BI using the get data option. I started by removing unnecessary columns using the remove column on the home tab. Ensured that the dataset has no errors in the Power Query editor. At first, the error was the date-time format which showed errors but I changed the data type to date
  
