@@ -14,4 +14,14 @@ I downloaded this dataset from Kaggle
 Excel for Web, SQL and Power BI
 
 ## Methodology
+# Cleaning steps
+* Loaded raw datasets (Excel/CSV) into Power Query Editor for transformations
+* Removed empty cells
+* Identified and handled data type mismatches(date columns with invalid data type)
+* Replaced error values
+* Removed irrelevant rows and columns
 
+# Data Modelling
+After applying the transformations, I load the queries for modelling
+* Checked whether the loaded queries had a relationship between fact tables and dim tables in this case transactions(cleaned)(fact table) and transaction types, loan status(dim table)
+* 
